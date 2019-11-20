@@ -1,10 +1,29 @@
-<div id='block'>  
-  <h1><a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'>Click here for random article</a></h1>
-  <p id='searchicon' onclick='togglesearch()'><span class='glyphicon glyphicon-search'></span></p>
-  <input type='search' id='searchbox' onkeydown='wiki(event)' style='display:none'>
-  <button id='searchclose' style='display:none' onclick='toggleicon()'><span class='glyphicon glyphicon-remove'></span></button>
-  <p id='lastsentence'>Click icon to search</p>
-</div>  
-<ul id='result'>
-  
-</ul>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id='block'>  
+      <h1>
+        <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'>Click here for random article</a>
+      </h1>
+      <p id='searchicon'>
+        <i class='glyphicon glyphicon-search'>
+          <span class='tooltip'>Click icon to search wikipedia</span>
+        </i>
+      </p>
+      <input type='search' id='searchbox' style='display:none'>
+      <button id='searchclose' style='display:none'>
+        <i class='glyphicon glyphicon-remove'></i>
+      </button>
+      <footer>Code by <a href="https://github.com/Leonidas-I" target="_blank" >Leonidas-I</a> aka TriPhan</footer>
+    </div>
+    <ul id='result' class='container'>
+      
+    </ul>  
+</body>
+</html>

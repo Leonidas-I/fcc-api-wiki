@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 function wiki(event){
   if (event.keyCode === 13){
     var keyword = $("#searchbox").val();
@@ -11,7 +13,7 @@ function wiki(event){
       success: function(json){
         $("#result").html("");
         for(var i=1;i<json[1].length;i++){
-          $("#result").append("<li><div><a href=" + json[3][i] + " target='_blank'><div><h3 class='text-success'>" + json[1][i] + "</h3><p class='text-warning'>" + json[2][i] + "</p></div></div></li>");
+          $("#result").append("<li><div><a href=" + json[3][i] + " target='_blank'><div><h3 class='text-success'>" + json[1][i] + "</h3><p class='text-warning'>" + json[2][i] + "</p></div></div></li><br>");
         }
       }
     });
