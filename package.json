@@ -1,0 +1,20 @@
+{
+  "name": "fcc-api-wiki",
+  "version": "1.0.0",
+  "description": "get article from wiki use ajax api link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonidas-I/fcc-api-wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonidas-I/fcc-api-wiki/issues"
+  },
+  "homepage": "https://github.com/Leonidas-I/fcc-api-wiki#readme"
+}
