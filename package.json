@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Leonidas-I/fcc-api-wiki#readme",
   "devDependencies": {
     "@babel/core": "^7.7.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
     "@babel/preset-env": "^7.7.1",
     "autoprefixer": "^9.7.2",
     "babel-loader": "^8.0.6",
