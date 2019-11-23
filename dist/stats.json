@@ -2,13 +2,11 @@
   "errors": [
   ],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (365 KiB)\n      main.fa46f2a34f3e043ecf7a.css\n      main.bee7fc6dc8c3dab0d9ca.js\n",
-    "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.41.2",
   "hash": "3964f2edd08b76b95ba7",
-  "time": 28656,
-  "builtAt": 1574509130828,
+  "time": 35461,
+  "builtAt": 1574519176012,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/fcc-api-wiki/dist",
   "assetsByChunkName": {
@@ -45,7 +43,7 @@
     },
     {
       "name": "main.fa46f2a34f3e043ecf7a.css",
-      "size": 155570,
+      "size": 6025,
       "chunks": [
         0
       ],
@@ -71,8 +69,7 @@
       "children": {
       },
       "childAssets": {
-      },
-      "isOverSizeLimit": true
+      }
     }
   },
   "namedChunkGroups": {
@@ -87,8 +84,7 @@
       "children": {
       },
       "childAssets": {
-      },
-      "isOverSizeLimit": true
+      }
     }
   },
   "chunks": [

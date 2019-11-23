@@ -7,11 +7,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const WebpackBundleAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-// const PurgeCssPlugin = require('purgecss-webpack-plugin');
-// const glob = require('glob'); 
-// const PATHS = {
-//   src: path.join(__dirname, 'src')
-// };
+const PurgeCssPlugin = require('purgecss-webpack-plugin');
+const glob = require('glob'); 
+const PATHS = {
+  src: path.join(__dirname, 'src')
+};
 
 
 module.exports = merge(common, {
@@ -41,9 +41,9 @@ module.exports = merge(common, {
     new MiniCssExtractPlugin({
       filename: '[name].[contentHash].css'
     }),
-    // new PurgeCssPlugin({
-    //   paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
-    // }),
+    new PurgeCssPlugin({
+      paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
+    }),
     new WebpackBundleAnalyzer({
       generateStatsFile: true,
       openAnalyzer: false
