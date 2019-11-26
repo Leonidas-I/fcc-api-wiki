@@ -4,16 +4,16 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "584be21986fd7306c3c2",
-  "time": 31603,
-  "builtAt": 1574520991890,
+  "hash": "1975cc6febb02dc7fd9b",
+  "time": 24900,
+  "builtAt": 1574737625452,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/fcc-api-wiki/dist",
   "assetsByChunkName": {
     "common": "common.2026fc518cab704876fc.js",
     "main": [
       "main.fa46f2a34f3e043ecf7a.css",
-      "main.0e838257006da0974645.js"
+      "main.c97c3c4740a272eba807.js"
     ],
     "vendor": "vendor.a2ba1bb5a39dee8a1385.js"
   },
@@ -44,8 +44,8 @@
       "emitted": true
     },
     {
-      "name": "main.0e838257006da0974645.js",
-      "size": 7546,
+      "name": "main.c97c3c4740a272eba807.js",
+      "size": 6932,
       "chunks": [
         1
       ],
@@ -98,7 +98,7 @@
         "common.2026fc518cab704876fc.js",
         "vendor.a2ba1bb5a39dee8a1385.js",
         "main.fa46f2a34f3e043ecf7a.css",
-        "main.0e838257006da0974645.js"
+        "main.c97c3c4740a272eba807.js"
       ],
       "children": {
       },
@@ -117,7 +117,7 @@
         "common.2026fc518cab704876fc.js",
         "vendor.a2ba1bb5a39dee8a1385.js",
         "main.fa46f2a34f3e043ecf7a.css",
-        "main.0e838257006da0974645.js"
+        "main.c97c3c4740a272eba807.js"
       ],
       "children": {
       },
@@ -171,8 +171,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -188,27 +188,27 @@
           "reasons": [
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "@fortawesome/fontawesome-svg-core",
               "loc": "1:0-65"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "@fortawesome/fontawesome-svg-core",
               "loc": "4:0-7"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "@fortawesome/fontawesome-svg-core",
               "loc": "5:0-3"
@@ -257,8 +257,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -274,27 +274,27 @@
           "reasons": [
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "@fortawesome/free-solid-svg-icons",
               "loc": "2:0-70"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "@fortawesome/free-solid-svg-icons",
               "loc": "4:12-20"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "@fortawesome/free-solid-svg-icons",
               "loc": "4:22-29"
@@ -1294,8 +1294,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -1311,18 +1311,18 @@
           "reasons": [
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "@fortawesome/free-brands-svg-icons",
               "loc": "3:0-66"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "@fortawesome/free-brands-svg-icons",
               "loc": "4:31-43"
@@ -1788,14 +1788,14 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
           "issuerId": null,
-          "issuerName": "./src/main.js",
+          "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             }
           ],
           "failed": false,
@@ -1806,9 +1806,9 @@
           "reasons": [
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "bootstrap",
               "loc": "4:0-19"
@@ -1830,7 +1830,7 @@
           "moduleIdentifier": "",
           "moduleName": "",
           "loc": "main",
-          "request": "./src/main.js",
+          "request": "./src/index.js",
           "reasons": [
           ]
         }
@@ -1841,15 +1841,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 175090,
+      "size": 175310,
       "names": [
         "main"
       ],
       "files": [
         "main.fa46f2a34f3e043ecf7a.css",
-        "main.0e838257006da0974645.js"
+        "main.c97c3c4740a272eba807.js"
       ],
-      "hash": "5f559646a6c44b270c16",
+      "hash": "1caa741b6a6e6fa412dd",
       "siblings": [
         0,
         2
@@ -1881,8 +1881,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -1960,14 +1960,14 @@
           "chunks": [
             1
           ],
-          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
           "issuerId": null,
-          "issuerName": "./src/main.js",
+          "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             }
           ],
           "failed": false,
@@ -1978,9 +1978,9 @@
           "reasons": [
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "./style.scss",
               "loc": "2:0-22"
@@ -2014,8 +2014,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -2072,8 +2072,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -2135,8 +2135,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": null,
@@ -2185,11 +2185,11 @@
         },
         {
           "id": 11,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "name": "./src/main.js + 1 modules",
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "name": "./src/index.js + 4 modules",
           "index": 0,
-          "index2": 13,
-          "size": 2098,
+          "index2": 16,
+          "size": 2318,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2213,7 +2213,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "./src/main.js",
+              "userRequest": "./src/index.js",
               "loc": "main"
             }
           ],
@@ -2230,11 +2230,11 @@
           "modules": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js",
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js",
               "index": 0,
-              "index2": 13,
-              "size": 1806,
+              "index2": 16,
+              "size": 643,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2257,7 +2257,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "./src/main.js",
+                  "userRequest": "./src/index.js",
                   "loc": "main"
                 }
               ],
@@ -2268,7 +2268,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', function () {\n    $(\"#searchicon\").toggle();\n    $(\"#wikiicon\").toggle();\n    $(\"#searchbox\").fadeIn(1000);\n    $(\"#searchclose\").fadeIn(1000);\n    $(\"footer\").toggle();\n    $(\"#searchbox\").focus();\n  });\n  $(\"span\").click('[data-fa-i2svg]', function () {\n    $(\"#searchicon\").fadeIn(1000);\n    $(\"#wikiicon\").fadeIn(1000);\n    $(\"#searchbox\").toggle();\n    $(\"#searchbox\").val(\"\");\n    $(\"#searchclose\").toggle();\n    $(\"#result\").html(\"\");\n    $(\"footer\").fadeIn(1000, 'linear');\n  });\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      var keyword = $(\"#searchbox\").val();\n      var apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n      $.ajax({\n        type: \"GET\",\n        url: apilink,\n        async: true,\n        dataType: \"json\",\n        success: function success(json) {\n          $(\"#result\").html(\"\");\n\n          for (var i = 1; i < json[1].length; i++) {\n            $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n          }\n        }\n      });\n    }\n  });\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 27) {\n      $(\"#searchicon\").fadeIn(1000);\n      $(\"#wikiicon\").fadeIn(1000);\n      $(\"#searchbox\").toggle();\n      $(\"#searchbox\").val(\"\");\n      $(\"#searchclose\").toggle();\n      $(\"#result\").html(\"\");\n      $(\"footer\").fadeIn(1000, 'linear');\n    }\n  });\n});"
+              "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\nimport getAPI from \"./getAPI\";\nimport searchClick from \"./searchClick\";\nimport returnHome from \"./returnHome\";\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', searchClick);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      getAPI;\n    }\n  });\n  $(\"span\").click('[data-fa-i2svg]', returnHome);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 27) {\n      returnHome;\n    }\n  });\n});"
             },
             {
               "id": null,
@@ -2283,14 +2283,14 @@
               "prefetched": false,
               "chunks": [
               ],
-              "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+              "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
               "issuerId": null,
-              "issuerName": "./src/main.js",
+              "issuerName": "./src/index.js",
               "issuerPath": [
                 {
                   "id": null,
-                  "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-                  "name": "./src/main.js"
+                  "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "name": "./src/index.js"
                 }
               ],
               "failed": false,
@@ -2301,9 +2301,9 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-                  "module": "./src/main.js",
-                  "moduleName": "./src/main.js",
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "./fontawesome5",
                   "loc": "3:0-24"
@@ -2316,6 +2316,192 @@
               ],
               "depth": 1,
               "source": "import { library, dom } from '@fortawesome/fontawesome-svg-core';\nimport { faTimes, faSearch } from '@fortawesome/free-solid-svg-icons';\nimport { faWikipediaW } from '@fortawesome/free-brands-svg-icons';\nlibrary.add(faSearch, faTimes, faWikipediaW);\ndom.watch();"
+            },
+            {
+              "id": null,
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/getAPI.js",
+              "name": "./src/getAPI.js",
+              "index": 14,
+              "index2": 13,
+              "size": 803,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./getAPI",
+                  "loc": "5:0-30"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./getAPI",
+                  "loc": "14:6-12"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 1,
+              "source": "import $ from 'jquery';\nvar keyword = $(\"#searchbox\").val();\nvar apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n\nvar getAPI = function getAPI() {\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      $.ajax({\n        type: \"GET\",\n        url: apilink,\n        async: true,\n        dataType: \"json\",\n        success: function success(json) {\n          $(\"#result\").html(\"\");\n\n          for (var i = 1; i < json[1].length; i++) {\n            $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n          }\n        }\n      });\n    }\n  });\n};\n\nexport default getAPI;"
+            },
+            {
+              "id": null,
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/searchClick.js",
+              "name": "./src/searchClick.js",
+              "index": 15,
+              "index2": 14,
+              "size": 272,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./searchClick",
+                  "loc": "6:0-40"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./searchClick",
+                  "loc": "11:34-45"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 1,
+              "source": "import $ from 'jquery';\n\nvar searchClick = function searchClick() {\n  $(\"#searchicon\").toggle();\n  $(\"#wikiicon\").toggle();\n  $(\"#searchbox\").fadeIn(1000);\n  $(\"#searchclose\").fadeIn(1000);\n  $(\"footer\").toggle();\n  $(\"#searchbox\").focus();\n};\n\nexport default searchClick;"
+            },
+            {
+              "id": null,
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/returnHome.js",
+              "name": "./src/returnHome.js",
+              "index": 16,
+              "index2": 15,
+              "size": 308,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./returnHome",
+                  "loc": "7:0-38"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./returnHome",
+                  "loc": "17:37-47"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./returnHome",
+                  "loc": "20:6-16"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 1,
+              "source": "import $ from 'jquery';\n\nvar returnHome = function returnHome() {\n  $(\"#searchicon\").fadeIn(1000);\n  $(\"#wikiicon\").fadeIn(1000);\n  $(\"#searchbox\").toggle();\n  $(\"#searchbox\").val(\"\");\n  $(\"#searchclose\").toggle();\n  $(\"#result\").html(\"\");\n  $(\"footer\").fadeIn(1000, 'linear');\n};\n\nexport default returnHome;"
             }
           ],
           "filteredModules": 0
@@ -2339,8 +2525,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": 5,
@@ -2376,7 +2562,7 @@
           "moduleIdentifier": "",
           "moduleName": "",
           "loc": "main",
-          "request": "./src/main.js",
+          "request": "./src/index.js",
           "reasons": [
           ]
         }
@@ -2421,14 +2607,14 @@
           "chunks": [
             2
           ],
-          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
           "issuerId": null,
-          "issuerName": "./src/main.js",
+          "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             }
           ],
           "failed": false,
@@ -2448,282 +2634,255 @@
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "jquery",
               "loc": "1:0-23"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "jquery",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "jquery",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "jquery",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "2:14-15"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "4:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "4:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "5:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "5:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
               "loc": "6:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "6:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "6:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
               "loc": "7:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "jquery",
+              "loc": "7:2-3"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
               "loc": "8:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "9:4-5"
+              "loc": "8:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "10:4-5"
+              "loc": "8:6-7"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "11:4-5"
+              "loc": "9:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "12:4-5"
+              "loc": "9:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "13:4-5"
+              "loc": "9:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "14:4-5"
+              "loc": "10:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "16:2-3"
+              "loc": "10:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "17:4-5"
+              "loc": "11:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "18:4-5"
+              "loc": "12:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "19:4-5"
+              "loc": "14:10-11"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "20:4-5"
+              "loc": "17:2-3"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "21:4-5"
+              "loc": "17:12-13"
             },
             {
               "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+              "module": "./src/index.js + 4 modules",
+              "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "22:4-5"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "23:4-5"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "25:2-3"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "27:20-21"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "29:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "35:10-11"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "38:12-13"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "44:2-3"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "46:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "47:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "48:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "49:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "50:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "51:6-7"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-              "module": "./src/main.js + 1 modules",
-              "moduleName": "./src/main.js + 1 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "52:6-7"
+              "loc": "18:2-3"
             }
           ],
           "usedExports": true,
@@ -2754,8 +2913,8 @@
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             },
             {
               "id": 9,
@@ -2797,7 +2956,7 @@
           "moduleIdentifier": "",
           "moduleName": "",
           "loc": "main",
-          "request": "./src/main.js",
+          "request": "./src/index.js",
           "reasons": [
           ]
         }
@@ -2819,14 +2978,14 @@
       "chunks": [
         2
       ],
-      "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+      "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
       "issuerId": null,
-      "issuerName": "./src/main.js",
+      "issuerName": "./src/index.js",
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         }
       ],
       "failed": false,
@@ -2846,282 +3005,255 @@
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "jquery",
           "loc": "1:0-23"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "jquery",
+          "loc": "1:0-23"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "jquery",
+          "loc": "1:0-23"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "jquery",
+          "loc": "1:0-23"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "2:14-15"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "4:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "4:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "5:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "5:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
           "loc": "6:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "6:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "6:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
           "loc": "7:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "jquery",
+          "loc": "7:2-3"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
           "loc": "8:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "9:4-5"
+          "loc": "8:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "10:4-5"
+          "loc": "8:6-7"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "11:4-5"
+          "loc": "9:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "12:4-5"
+          "loc": "9:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "13:4-5"
+          "loc": "9:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "14:4-5"
+          "loc": "10:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "16:2-3"
+          "loc": "10:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "17:4-5"
+          "loc": "11:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "18:4-5"
+          "loc": "12:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "19:4-5"
+          "loc": "14:10-11"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "20:4-5"
+          "loc": "17:2-3"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "21:4-5"
+          "loc": "17:12-13"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "22:4-5"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "23:4-5"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "25:2-3"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "27:20-21"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "29:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "35:10-11"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "38:12-13"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "44:2-3"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "46:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "47:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "48:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "49:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "50:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "51:6-7"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "52:6-7"
+          "loc": "18:2-3"
         }
       ],
       "usedExports": true,
@@ -3152,8 +3284,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -3237,8 +3369,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -3254,27 +3386,27 @@
       "reasons": [
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "@fortawesome/fontawesome-svg-core",
           "loc": "1:0-65"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "@fortawesome/fontawesome-svg-core",
           "loc": "4:0-7"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "@fortawesome/fontawesome-svg-core",
           "loc": "5:0-3"
@@ -3323,8 +3455,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -3340,27 +3472,27 @@
       "reasons": [
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "@fortawesome/free-solid-svg-icons",
           "loc": "2:0-70"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "@fortawesome/free-solid-svg-icons",
           "loc": "4:12-20"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "@fortawesome/free-solid-svg-icons",
           "loc": "4:22-29"
@@ -4360,8 +4492,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -4377,18 +4509,18 @@
       "reasons": [
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "@fortawesome/free-brands-svg-icons",
           "loc": "3:0-66"
         },
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "@fortawesome/free-brands-svg-icons",
           "loc": "4:31-43"
@@ -4854,14 +4986,14 @@
       "chunks": [
         1
       ],
-      "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+      "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
       "issuerId": null,
-      "issuerName": "./src/main.js",
+      "issuerName": "./src/index.js",
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         }
       ],
       "failed": false,
@@ -4872,9 +5004,9 @@
       "reasons": [
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "./style.scss",
           "loc": "2:0-22"
@@ -4908,8 +5040,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -4966,8 +5098,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -5029,8 +5161,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": null,
@@ -5091,14 +5223,14 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+      "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
       "issuerId": null,
-      "issuerName": "./src/main.js",
+      "issuerName": "./src/index.js",
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         }
       ],
       "failed": false,
@@ -5109,9 +5241,9 @@
       "reasons": [
         {
           "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-          "module": "./src/main.js + 1 modules",
-          "moduleName": "./src/main.js + 1 modules",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+          "module": "./src/index.js + 4 modules",
+          "moduleName": "./src/index.js + 4 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "bootstrap",
           "loc": "4:0-19"
@@ -5145,8 +5277,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": 9,
@@ -5182,11 +5314,11 @@
     },
     {
       "id": 11,
-      "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js 715987704d7daf661c7c1ca0ea1826bb",
-      "name": "./src/main.js + 1 modules",
+      "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
+      "name": "./src/index.js + 4 modules",
       "index": 0,
-      "index2": 13,
-      "size": 2098,
+      "index2": 16,
+      "size": 2318,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5210,7 +5342,7 @@
           "module": null,
           "moduleName": null,
           "type": "single entry",
-          "userRequest": "./src/main.js",
+          "userRequest": "./src/index.js",
           "loc": "main"
         }
       ],
@@ -5227,11 +5359,11 @@
       "modules": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js",
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js",
           "index": 0,
-          "index2": 13,
-          "size": 1806,
+          "index2": 16,
+          "size": 643,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5254,7 +5386,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "./src/main.js",
+              "userRequest": "./src/index.js",
               "loc": "main"
             }
           ],
@@ -5265,7 +5397,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', function () {\n    $(\"#searchicon\").toggle();\n    $(\"#wikiicon\").toggle();\n    $(\"#searchbox\").fadeIn(1000);\n    $(\"#searchclose\").fadeIn(1000);\n    $(\"footer\").toggle();\n    $(\"#searchbox\").focus();\n  });\n  $(\"span\").click('[data-fa-i2svg]', function () {\n    $(\"#searchicon\").fadeIn(1000);\n    $(\"#wikiicon\").fadeIn(1000);\n    $(\"#searchbox\").toggle();\n    $(\"#searchbox\").val(\"\");\n    $(\"#searchclose\").toggle();\n    $(\"#result\").html(\"\");\n    $(\"footer\").fadeIn(1000, 'linear');\n  });\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      var keyword = $(\"#searchbox\").val();\n      var apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n      $.ajax({\n        type: \"GET\",\n        url: apilink,\n        async: true,\n        dataType: \"json\",\n        success: function success(json) {\n          $(\"#result\").html(\"\");\n\n          for (var i = 1; i < json[1].length; i++) {\n            $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n          }\n        }\n      });\n    }\n  });\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 27) {\n      $(\"#searchicon\").fadeIn(1000);\n      $(\"#wikiicon\").fadeIn(1000);\n      $(\"#searchbox\").toggle();\n      $(\"#searchbox\").val(\"\");\n      $(\"#searchclose\").toggle();\n      $(\"#result\").html(\"\");\n      $(\"footer\").fadeIn(1000, 'linear');\n    }\n  });\n});"
+          "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\nimport getAPI from \"./getAPI\";\nimport searchClick from \"./searchClick\";\nimport returnHome from \"./returnHome\";\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', searchClick);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      getAPI;\n    }\n  });\n  $(\"span\").click('[data-fa-i2svg]', returnHome);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 27) {\n      returnHome;\n    }\n  });\n});"
         },
         {
           "id": null,
@@ -5280,14 +5412,14 @@
           "prefetched": false,
           "chunks": [
           ],
-          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
           "issuerId": null,
-          "issuerName": "./src/main.js",
+          "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "name": "./src/main.js"
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
             }
           ],
           "failed": false,
@@ -5298,9 +5430,9 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-              "module": "./src/main.js",
-              "moduleName": "./src/main.js",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
               "type": "harmony side effect evaluation",
               "userRequest": "./fontawesome5",
               "loc": "3:0-24"
@@ -5313,6 +5445,192 @@
           ],
           "depth": 1,
           "source": "import { library, dom } from '@fortawesome/fontawesome-svg-core';\nimport { faTimes, faSearch } from '@fortawesome/free-solid-svg-icons';\nimport { faWikipediaW } from '@fortawesome/free-brands-svg-icons';\nlibrary.add(faSearch, faTimes, faWikipediaW);\ndom.watch();"
+        },
+        {
+          "id": null,
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/getAPI.js",
+          "name": "./src/getAPI.js",
+          "index": 14,
+          "index2": 13,
+          "size": 803,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "issuerId": null,
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./getAPI",
+              "loc": "5:0-30"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./getAPI",
+              "loc": "14:6-12"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "import $ from 'jquery';\nvar keyword = $(\"#searchbox\").val();\nvar apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n\nvar getAPI = function getAPI() {\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      $.ajax({\n        type: \"GET\",\n        url: apilink,\n        async: true,\n        dataType: \"json\",\n        success: function success(json) {\n          $(\"#result\").html(\"\");\n\n          for (var i = 1; i < json[1].length; i++) {\n            $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n          }\n        }\n      });\n    }\n  });\n};\n\nexport default getAPI;"
+        },
+        {
+          "id": null,
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/searchClick.js",
+          "name": "./src/searchClick.js",
+          "index": 15,
+          "index2": 14,
+          "size": 272,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "issuerId": null,
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./searchClick",
+              "loc": "6:0-40"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./searchClick",
+              "loc": "11:34-45"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "import $ from 'jquery';\n\nvar searchClick = function searchClick() {\n  $(\"#searchicon\").toggle();\n  $(\"#wikiicon\").toggle();\n  $(\"#searchbox\").fadeIn(1000);\n  $(\"#searchclose\").fadeIn(1000);\n  $(\"footer\").toggle();\n  $(\"#searchbox\").focus();\n};\n\nexport default searchClick;"
+        },
+        {
+          "id": null,
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/returnHome.js",
+          "name": "./src/returnHome.js",
+          "index": 16,
+          "index2": 15,
+          "size": 308,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "issuerId": null,
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./returnHome",
+              "loc": "7:0-38"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./returnHome",
+              "loc": "17:37-47"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./returnHome",
+              "loc": "20:6-16"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "import $ from 'jquery';\n\nvar returnHome = function returnHome() {\n  $(\"#searchicon\").fadeIn(1000);\n  $(\"#wikiicon\").fadeIn(1000);\n  $(\"#searchbox\").toggle();\n  $(\"#searchbox\").val(\"\");\n  $(\"#searchclose\").toggle();\n  $(\"#result\").html(\"\");\n  $(\"footer\").fadeIn(1000, 'linear');\n};\n\nexport default returnHome;"
         }
       ],
       "filteredModules": 0
@@ -5336,8 +5654,8 @@
       "issuerPath": [
         {
           "id": null,
-          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/main.js",
-          "name": "./src/main.js"
+          "identifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
+          "name": "./src/index.js"
         },
         {
           "id": 5,

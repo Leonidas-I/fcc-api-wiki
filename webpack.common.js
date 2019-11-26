@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    main: './src/main.js'
+    main: './src/index.js'
   },
   optimization: {
     splitChunks: {
