@@ -11,11 +11,6 @@ document.addEventListener('DOMContentLoaded',() => {
   $('[data-toggle="tooltip"]').tooltip();
 
   $("p").click('[data-fa-i2svg]', searchClick);
-  $("#searchbox").keydown((event) => {
-    if (event.keyCode === 13) {getAPI}
-  });
-  $("span").click('[data-fa-i2svg]',returnHome);
-  window.addEventListener("keydown", (event) => {
-    if (event.keyCode === 27) {returnHome}
-  });
+  $("#searchbox").keydown(getAPI);
+  $("span").click('data-fa-i2svg', returnHome);
 });  

@@ -4,16 +4,16 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "1975cc6febb02dc7fd9b",
-  "time": 24900,
-  "builtAt": 1574737625452,
+  "hash": "f963dffabe7ca56af9e5",
+  "time": 25546,
+  "builtAt": 1574763613277,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/fcc-api-wiki/dist",
   "assetsByChunkName": {
     "common": "common.2026fc518cab704876fc.js",
     "main": [
       "main.fa46f2a34f3e043ecf7a.css",
-      "main.c97c3c4740a272eba807.js"
+      "main.172abbfab74dabe1a3dd.js"
     ],
     "vendor": "vendor.a2ba1bb5a39dee8a1385.js"
   },
@@ -44,8 +44,8 @@
       "emitted": true
     },
     {
-      "name": "main.c97c3c4740a272eba807.js",
-      "size": 6932,
+      "name": "main.172abbfab74dabe1a3dd.js",
+      "size": 7293,
       "chunks": [
         1
       ],
@@ -98,7 +98,7 @@
         "common.2026fc518cab704876fc.js",
         "vendor.a2ba1bb5a39dee8a1385.js",
         "main.fa46f2a34f3e043ecf7a.css",
-        "main.c97c3c4740a272eba807.js"
+        "main.172abbfab74dabe1a3dd.js"
       ],
       "children": {
       },
@@ -117,7 +117,7 @@
         "common.2026fc518cab704876fc.js",
         "vendor.a2ba1bb5a39dee8a1385.js",
         "main.fa46f2a34f3e043ecf7a.css",
-        "main.c97c3c4740a272eba807.js"
+        "main.172abbfab74dabe1a3dd.js"
       ],
       "children": {
       },
@@ -1841,15 +1841,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 175310,
+      "size": 175067,
       "names": [
         "main"
       ],
       "files": [
         "main.fa46f2a34f3e043ecf7a.css",
-        "main.c97c3c4740a272eba807.js"
+        "main.172abbfab74dabe1a3dd.js"
       ],
-      "hash": "1caa741b6a6e6fa412dd",
+      "hash": "7f7b614d29a72825536d",
       "siblings": [
         0,
         2
@@ -2189,7 +2189,7 @@
           "name": "./src/index.js + 4 modules",
           "index": 0,
           "index2": 16,
-          "size": 2318,
+          "size": 2075,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2234,7 +2234,7 @@
               "name": "./src/index.js",
               "index": 0,
               "index2": 16,
-              "size": 643,
+              "size": 466,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2268,7 +2268,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\nimport getAPI from \"./getAPI\";\nimport searchClick from \"./searchClick\";\nimport returnHome from \"./returnHome\";\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', searchClick);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      getAPI;\n    }\n  });\n  $(\"span\").click('[data-fa-i2svg]', returnHome);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 27) {\n      returnHome;\n    }\n  });\n});"
+              "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\nimport getAPI from \"./getAPI\";\nimport searchClick from \"./searchClick\";\nimport returnHome from \"./returnHome\";\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', searchClick);\n  $(\"#searchbox\").keydown(getAPI);\n  $(\"span\").click('data-fa-i2svg', returnHome);\n});"
             },
             {
               "id": null,
@@ -2323,7 +2323,7 @@
               "name": "./src/getAPI.js",
               "index": 14,
               "index2": 13,
-              "size": 803,
+              "size": 737,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2362,7 +2362,7 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./getAPI",
-                  "loc": "14:6-12"
+                  "loc": "12:26-32"
                 }
               ],
               "usedExports": [
@@ -2374,7 +2374,7 @@
               "optimizationBailout": [
               ],
               "depth": 1,
-              "source": "import $ from 'jquery';\nvar keyword = $(\"#searchbox\").val();\nvar apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n\nvar getAPI = function getAPI() {\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      $.ajax({\n        type: \"GET\",\n        url: apilink,\n        async: true,\n        dataType: \"json\",\n        success: function success(json) {\n          $(\"#result\").html(\"\");\n\n          for (var i = 1; i < json[1].length; i++) {\n            $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n          }\n        }\n      });\n    }\n  });\n};\n\nexport default getAPI;"
+              "source": "import $ from 'jquery';\n\nvar getAPI = function getAPI(event) {\n  if (event.keyCode === 13) {\n    var keyword = $(\"#searchbox\").val();\n    var apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n    $.ajax({\n      type: \"GET\",\n      url: apilink,\n      async: true,\n      dataType: \"json\",\n      success: function success(json) {\n        $(\"#result\").html(\"\");\n\n        for (var i = 1; i < json[1].length; i++) {\n          $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n        }\n      }\n    });\n  }\n};\n\nexport default getAPI;"
             },
             {
               "id": null,
@@ -2480,16 +2480,7 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./returnHome",
-                  "loc": "17:37-47"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
-                  "module": "./src/index.js",
-                  "moduleName": "./src/index.js",
-                  "type": "harmony import specifier",
-                  "userRequest": "./returnHome",
-                  "loc": "20:6-16"
+                  "loc": "13:35-45"
                 }
               ],
               "usedExports": [
@@ -2675,15 +2666,6 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "2:14-15"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
-              "module": "./src/index.js + 4 modules",
-              "moduleName": "./src/index.js + 4 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
               "loc": "4:2-3"
             },
             {
@@ -2720,7 +2702,7 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "6:2-3"
+              "loc": "5:18-19"
             },
             {
               "moduleId": 11,
@@ -2765,7 +2747,7 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "8:2-3"
+              "loc": "7:4-5"
             },
             {
               "moduleId": 11,
@@ -2783,7 +2765,7 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "8:6-7"
+              "loc": "8:2-3"
             },
             {
               "moduleId": 11,
@@ -2855,7 +2837,7 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "14:10-11"
+              "loc": "13:2-3"
             },
             {
               "moduleId": 11,
@@ -2864,7 +2846,7 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "17:2-3"
+              "loc": "13:8-9"
             },
             {
               "moduleId": 11,
@@ -2873,16 +2855,7 @@
               "moduleName": "./src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "jquery",
-              "loc": "17:12-13"
-            },
-            {
-              "moduleId": 11,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
-              "module": "./src/index.js + 4 modules",
-              "moduleName": "./src/index.js + 4 modules",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "18:2-3"
+              "loc": "16:10-11"
             }
           ],
           "usedExports": true,
@@ -3046,15 +3019,6 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "2:14-15"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
-          "module": "./src/index.js + 4 modules",
-          "moduleName": "./src/index.js + 4 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
           "loc": "4:2-3"
         },
         {
@@ -3091,7 +3055,7 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "6:2-3"
+          "loc": "5:18-19"
         },
         {
           "moduleId": 11,
@@ -3136,7 +3100,7 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "8:2-3"
+          "loc": "7:4-5"
         },
         {
           "moduleId": 11,
@@ -3154,7 +3118,7 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "8:6-7"
+          "loc": "8:2-3"
         },
         {
           "moduleId": 11,
@@ -3226,7 +3190,7 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "14:10-11"
+          "loc": "13:2-3"
         },
         {
           "moduleId": 11,
@@ -3235,7 +3199,7 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "17:2-3"
+          "loc": "13:8-9"
         },
         {
           "moduleId": 11,
@@ -3244,16 +3208,7 @@
           "moduleName": "./src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "jquery",
-          "loc": "17:12-13"
-        },
-        {
-          "moduleId": 11,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js 077c7f135cfe4c3a91d97565c58a230a",
-          "module": "./src/index.js + 4 modules",
-          "moduleName": "./src/index.js + 4 modules",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "18:2-3"
+          "loc": "16:10-11"
         }
       ],
       "usedExports": true,
@@ -5318,7 +5273,7 @@
       "name": "./src/index.js + 4 modules",
       "index": 0,
       "index2": 16,
-      "size": 2318,
+      "size": 2075,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5363,7 +5318,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 16,
-          "size": 643,
+          "size": 466,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5397,7 +5352,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\nimport getAPI from \"./getAPI\";\nimport searchClick from \"./searchClick\";\nimport returnHome from \"./returnHome\";\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', searchClick);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      getAPI;\n    }\n  });\n  $(\"span\").click('[data-fa-i2svg]', returnHome);\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 27) {\n      returnHome;\n    }\n  });\n});"
+          "source": "import $ from 'jquery';\nimport './style.scss';\nimport './fontawesome5';\nimport 'bootstrap';\nimport getAPI from \"./getAPI\";\nimport searchClick from \"./searchClick\";\nimport returnHome from \"./returnHome\";\ndocument.addEventListener('DOMContentLoaded', function () {\n  $(\"#searchbox\").val(\"\");\n  $('[data-toggle=\"tooltip\"]').tooltip();\n  $(\"p\").click('[data-fa-i2svg]', searchClick);\n  $(\"#searchbox\").keydown(getAPI);\n  $(\"span\").click('data-fa-i2svg', returnHome);\n});"
         },
         {
           "id": null,
@@ -5452,7 +5407,7 @@
           "name": "./src/getAPI.js",
           "index": 14,
           "index2": 13,
-          "size": 803,
+          "size": 737,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5491,7 +5446,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./getAPI",
-              "loc": "14:6-12"
+              "loc": "12:26-32"
             }
           ],
           "usedExports": [
@@ -5503,7 +5458,7 @@
           "optimizationBailout": [
           ],
           "depth": 1,
-          "source": "import $ from 'jquery';\nvar keyword = $(\"#searchbox\").val();\nvar apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n\nvar getAPI = function getAPI() {\n  $(\"#searchbox\").keydown(function (event) {\n    if (event.keyCode === 13) {\n      $.ajax({\n        type: \"GET\",\n        url: apilink,\n        async: true,\n        dataType: \"json\",\n        success: function success(json) {\n          $(\"#result\").html(\"\");\n\n          for (var i = 1; i < json[1].length; i++) {\n            $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n          }\n        }\n      });\n    }\n  });\n};\n\nexport default getAPI;"
+          "source": "import $ from 'jquery';\n\nvar getAPI = function getAPI(event) {\n  if (event.keyCode === 13) {\n    var keyword = $(\"#searchbox\").val();\n    var apilink = \"https://en.wikipedia.org/w/api.php?action=opensearch&search=\" + keyword + \"&limit=10&format=json&callback=?\";\n    $.ajax({\n      type: \"GET\",\n      url: apilink,\n      async: true,\n      dataType: \"json\",\n      success: function success(json) {\n        $(\"#result\").html(\"\");\n\n        for (var i = 1; i < json[1].length; i++) {\n          $(\"#result\").append(\"<li><div><a href=\" + json[3][i] + \" target='_blank'><div><h3 class='text-success'>\" + json[1][i] + \"</h3><p class='text-info'>\" + json[2][i] + \"</p></div></div></li>\");\n        }\n      }\n    });\n  }\n};\n\nexport default getAPI;"
         },
         {
           "id": null,
@@ -5609,16 +5564,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./returnHome",
-              "loc": "17:37-47"
-            },
-            {
-              "moduleId": null,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/fcc-api-wiki/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/fcc-api-wiki/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "type": "harmony import specifier",
-              "userRequest": "./returnHome",
-              "loc": "20:6-16"
+              "loc": "13:35-45"
             }
           ],
           "usedExports": [
@@ -5758,7 +5704,7 @@
           "files": [
             "index.html"
           ],
-          "hash": "2b9cd67bb4aad153d4b8",
+          "hash": "1310af1041d74821cb2e",
           "siblings": [
           ],
           "parents": [
@@ -5807,7 +5753,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\n  <title>Api-Wiki</title>\\n</head>\\n<body>\\n  <div id='block'>  \\n      <h1>\\n        <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><em>Click here for random wikipedia article</em></a>\\n      </h1>\\n      \\n      <p>\\n        <i id='searchicon' class='fas fa-search fa-10x' data-toggle='tooltip' data-placement='right' title='Click icon to search on wikipedia'></i>\\n        <i id='wikiicon' class='fab fa-wikipedia-w fa-lg' data-fa-transform='grow-4 up-50 left-85'></i>\\n      </p>\\n      \\n      <input type='search' id='searchbox' style='display:none' />\\n\\n      <span>\\n        <i id='searchclose' style='display:none' class='fas fa-times fa-lg' data-fa-transform='grow-8'></i>\\n      </span>\\n      \\n      <footer>Code by <a href=\\\"https://github.com/Leonidas-I\\\" target=\\\"_blank\\\" class='text-warning'>Leonidas-I</a> aka TriPhan</footer>\\n    </div>\\n    <ul id='result' class='container'>\\n      \\n    </ul>  \\n</body>\\n</html>\";"
+              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\n  <title>Api-Wiki</title>\\n</head>\\n<body>\\n  <div id='block'>  \\n      <h1>\\n        <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><em>Click here for random wikipedia article</em></a>\\n      </h1>\\n      \\n      <p>\\n        <i id='searchicon' class='fas fa-search fa-10x' data-toggle='tooltip' data-placement='right' title='Click icon to search on wikipedia'></i>\\n        <i id='wikiicon' class='fab fa-wikipedia-w fa-lg' data-fa-transform='grow-6 up-50 left-87'></i>\\n      </p>\\n      \\n      <input type='search' id='searchbox' style='display:none' />\\n\\n      <span>\\n        <i id='searchclose' style='display:none' class='fas fa-times fa-lg' data-fa-transform='grow-8'></i>\\n      </span>\\n      \\n      <footer>Code by <a href=\\\"https://github.com/Leonidas-I\\\" target=\\\"_blank\\\" class='text-warning'>Leonidas-I</a> aka TriPhan</footer>\\n    </div>\\n    <ul id='result' class='container'>\\n      \\n    </ul>  \\n</body>\\n</html>\";"
             }
           ],
           "filteredModules": 0,
@@ -5864,7 +5810,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\n  <title>Api-Wiki</title>\\n</head>\\n<body>\\n  <div id='block'>  \\n      <h1>\\n        <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><em>Click here for random wikipedia article</em></a>\\n      </h1>\\n      \\n      <p>\\n        <i id='searchicon' class='fas fa-search fa-10x' data-toggle='tooltip' data-placement='right' title='Click icon to search on wikipedia'></i>\\n        <i id='wikiicon' class='fab fa-wikipedia-w fa-lg' data-fa-transform='grow-4 up-50 left-85'></i>\\n      </p>\\n      \\n      <input type='search' id='searchbox' style='display:none' />\\n\\n      <span>\\n        <i id='searchclose' style='display:none' class='fas fa-times fa-lg' data-fa-transform='grow-8'></i>\\n      </span>\\n      \\n      <footer>Code by <a href=\\\"https://github.com/Leonidas-I\\\" target=\\\"_blank\\\" class='text-warning'>Leonidas-I</a> aka TriPhan</footer>\\n    </div>\\n    <ul id='result' class='container'>\\n      \\n    </ul>  \\n</body>\\n</html>\";"
+          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\n  <title>Api-Wiki</title>\\n</head>\\n<body>\\n  <div id='block'>  \\n      <h1>\\n        <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><em>Click here for random wikipedia article</em></a>\\n      </h1>\\n      \\n      <p>\\n        <i id='searchicon' class='fas fa-search fa-10x' data-toggle='tooltip' data-placement='right' title='Click icon to search on wikipedia'></i>\\n        <i id='wikiicon' class='fab fa-wikipedia-w fa-lg' data-fa-transform='grow-6 up-50 left-87'></i>\\n      </p>\\n      \\n      <input type='search' id='searchbox' style='display:none' />\\n\\n      <span>\\n        <i id='searchclose' style='display:none' class='fas fa-times fa-lg' data-fa-transform='grow-8'></i>\\n      </span>\\n      \\n      <footer>Code by <a href=\\\"https://github.com/Leonidas-I\\\" target=\\\"_blank\\\" class='text-warning'>Leonidas-I</a> aka TriPhan</footer>\\n    </div>\\n    <ul id='result' class='container'>\\n      \\n    </ul>  \\n</body>\\n</html>\";"
         }
       ],
       "filteredModules": 0,

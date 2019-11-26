@@ -11,5 +11,4 @@ bundle splitting
 # Things i may improve  
 why webpack can't bundle jquery and bootstrap into separated at the same time  
 find another way to select i tag to svg tag in jquery  
-repeat code in close event  
 anyhow to minimize dependency library even more
