@@ -1,6 +1,10 @@
 {
   "name": "fcc-api-wiki",
   "version": "1.0.0",
+  "sideEffects": [
+    "./src/*.scss",
+    "./src/fontawesome5.js"
+  ],
   "description": "get article from wiki use ajax api link",
   "main": "index.js",
   "scripts": {
