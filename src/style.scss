@@ -13,6 +13,7 @@ li {
   background: ivory;
   list-style-type: none;
   padding: 10px 10px;
+  min-height: 10vh;
   &:hover {
     background: moccasin;
   border-left: 5px solid magenta;
@@ -26,6 +27,7 @@ a:hover {
   text-align: center;
   margin: 50px auto;
 }
+
 #searchicon {
   cursor: pointer;
   color: tomato;

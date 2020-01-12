@@ -22,7 +22,8 @@ module.exports = {
           enforce: true
         }
       }
-    }
+    },
+    runtimeChunk: true
   },
   module: {
     rules: [
