@@ -5,7 +5,7 @@ const returnHome = () => {
   $("#wikiicon").fadeIn(1000);
   $("#searchbox").toggle();
   $("#searchbox").val("");
-  $("#searchclose").toggle();
+  $("#searchback").toggle();
   $("#result").html("");
   $("footer").fadeIn(1000, 'linear');
 }

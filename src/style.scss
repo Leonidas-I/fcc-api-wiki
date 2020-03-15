@@ -1,56 +1,97 @@
 $warning: darkorchid;
 @import "~bootstrap/scss/bootstrap";
 
-body {
-  font-family: Helvetica, sans-serif, Monospace;
-  background: seashell;
+$font-size-min: 1rem;
+$font-family: Helvetica, sans-serif, Monospace;
+
+@mixin hover-01 {
+  color: limegreen;
+  transition: color 1s ease-out 0.25s;
+  cursor: pointer;
 }
+@mixin layout-01 {
+  text-align: center;
+  margin: 10vh auto auto;
+  width: 90%;
+}
+
+body {
+  font-family: $font-family;
+  background: seashell;
+  font-size: $font-size-min;
+}
+
+#block {
+  @include layout-01;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: $font-size-min;
+}
+
 li {
+  font-size: $font-size-min;
   border: 2px outset chocolate;
   border-radius: 10px;
   box-shadow: 5px 5px 3px chocolate;
-  margin-top: 20px;
+  margin-top: 2em;
   background: ivory;
   list-style-type: none;
   padding: 10px 10px;
-  min-height: 10vh;
   &:hover {
     background: moccasin;
-  border-left: 5px solid magenta;
+    border-left: 5px solid magenta;
   }
 }
 
 a:hover {
   text-decoration: none;
 }
-#block {
-  text-align: center;
-  margin: 50px auto;
+
+#wikiicon {
+  transform: scale(0.75);
 }
 
 #searchicon {
-  cursor: pointer;
+  @extend #wikiicon;
   color: tomato;
   &:hover {
-    color: limegreen;
-    transition: color 1s ease-out 0.25s;
+    @include hover-01;
   }
-}
-#searchbox {
-  font-size: 20px;
-  margin-right: 20px;
-}
-#searchclose:hover {
-  color: crimson;
-  cursor: pointer;
-  transition: color 1s ease-out 0.25s;
-}
-footer {
-  font-size: 2em;
 }
 
-@media screen and (max-width: 720px) {
-  body {
-    transform: scale(0.75);
+input {
+  width: 30%;
+}
+
+#searchback {
+  margin-right: 1em;
+  &:hover {
+    @include hover-01;
   }
 }
+
+footer {
+  font-family: $font-family;
+  font-size: $font-size-min;
+  margin-top: 1em;
+}
+
+@media screen and (min-width: 720px) {
+  h1 {font-size: 1.5rem;}
+  #wikiicon {transform: scale(1.0)}
+  footer {font-size: 1.2rem;}
+}
+
+/*
+@media screen and (min-width: 1080px) {
+  body {
+    transform: scale(2.0);
+  }
+}
+*/
