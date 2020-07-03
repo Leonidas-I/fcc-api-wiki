@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Api-Wiki</title>
-</head>
-<body>
-  <div id='block'>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Api-Wiki</title>
+  </head>
+  <body>
+    <div id="block">
       <h1>
-        <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><em>Click here for random wikipedia article</em></a>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"
+          ><em>Click here for random wikipedia article</em></a
+        >
       </h1>
-      
+
       <p>
-        <i id='searchicon' class='fas fa-search fa-10x' data-toggle='tooltip' data-placement='right' title='Click icon to search on wikipedia' data-fa-transform='right-3'></i>
-        <i id='wikiicon' class='fab fa-wikipedia-w fa-lg' data-fa-transform='grow-6 up-50 left-65'></i>
+        <i
+          id="searchicon"
+          class="fas fa-search fa-10x"
+          data-toggle="tooltip"
+          data-placement="right"
+          title="Click icon to search on wikipedia"
+          data-fa-transform="right-3"
+        ></i>
+        <i
+          id="wikiicon"
+          class="fab fa-wikipedia-w fa-lg"
+          data-fa-transform="grow-6 up-50 left-65"
+        ></i>
       </p>
-      
+
       <span>
-        <i id='searchback' style='display:none' class='fas fa-arrow-circle-left fa-lg' data-fa-transform='grow-8'></i>
+        <i
+          id="searchback"
+          style="display: none;"
+          class="fas fa-arrow-circle-left fa-lg"
+          data-fa-transform="grow-8"
+        ></i>
       </span>
-      
-      <input type='search' id='searchbox' style='display:none' />
-      
-      <footer>Code by <a href="https://github.com/Leonidas-I" target="_blank" class='text-warning'>Leonidas-I</a> aka Tri Phan</footer>
+
+      <input type="search" id="searchbox" style="display: none;" />
     </div>
-    <ul id='result' class='container'>
-      
-    </ul>  
-</body>
+    <ol id="result" class="container"></ol>
+    <br />
+    <div id="weather">
+      <h1>
+        L<img
+          src="https://cdn3.iconfinder.com/data/icons/weather-16/256/Rainy_Day-512.png"
+          alt="o"
+        />cal Weather
+      </h1>
+      <ul>
+        <li><span id="city"></span>, <span id="country"></span></li>
+        <li><span id="temp"></span>&deg;C</li>
+        <li id="thoitiet"></li>
+      </ul>
+      <img id="hinhanh" />
+    </div>
+    <footer>
+      Code by
+      <a
+        href="https://github.com/Leonidas-I"
+        target="_blank"
+        class="text-warning"
+        >Leonidas-I</a
+      >
+      aka Tri Phan
+    </footer>
+  </body>
 </html>

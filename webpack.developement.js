@@ -1,52 +1,51 @@
-const path = require('path');
-const common = require('./webpack.common');
-const merge = require('webpack-merge');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require("path");
+const common = require("./webpack.common");
+const merge = require("webpack-merge");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = merge(common, {
-  mode: 'development',
-  devtool: 'inline-cheap-module-source-map',
+  mode: "development",
+  devtool: "inline-cheap-module-source-map",
   output: {
-    filename: '[name].bundle.js',
+    filename: "[name].bundle.js",
     // publicPath: 'dist/',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, "dist"),
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
+      template: "./src/index.html",
+      favicon: "./src/favicon.ico",
+    }),
   ],
   module: {
     rules: [
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
+          "style-loader",
           {
-            loader: 'css-loader',
+            loader: "css-loader",
             options: {
-              sourceMap: true
-            }
+              sourceMap: true,
+            },
           },
           {
-            loader: 'postcss-loader',
+            loader: "postcss-loader",
             options: {
               sourceMap: true,
               plugins: function () {
-                return [
-                  require('autoprefixer')
-                ];
-              }
-            }
+                return [require("autoprefixer")];
+              },
+            },
           },
           {
-            loader: 'sass-loader',
+            loader: "sass-loader",
             options: {
-              sourceMap: true
-            }
-          }
-        ]
-      }
-    ]
-  }
+              sourceMap: true,
+            },
+          },
+        ],
+      },
+    ],
+  },
 });

@@ -1,4 +1,4 @@
-import $ from 'jquery';
+import $ from "jquery";
 
 const returnHome = () => {
   $("#searchicon").fadeIn(1000);
@@ -7,7 +7,8 @@ const returnHome = () => {
   $("#searchbox").val("");
   $("#searchback").toggle();
   $("#result").html("");
-  $("footer").fadeIn(1000, 'linear');
-}
+  $("#weather").fadeIn(1000, "linear");
+  $("footer").fadeIn(1000, "linear");
+};
 
 export default returnHome;

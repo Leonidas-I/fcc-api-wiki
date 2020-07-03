@@ -11,7 +11,7 @@ $font-family: Helvetica, sans-serif, Monospace;
 }
 @mixin layout-01 {
   text-align: center;
-  margin: 10vh auto auto;
+  margin: 5vh auto;
   width: 90%;
 }
 
@@ -34,14 +34,14 @@ h3 {
   font-size: $font-size-min;
 }
 
-li {
+ol li {
   font-size: $font-size-min;
   border: 2px outset chocolate;
   border-radius: 10px;
   box-shadow: 5px 5px 3px chocolate;
   margin-top: 2em;
   background: ivory;
-  list-style-type: none;
+  // list-style-type: none;
   padding: 10px 10px;
   &:hover {
     background: moccasin;
@@ -76,17 +76,60 @@ input {
   }
 }
 
+#weather {
+  @include layout-01;
+}
+#thoitiet,
+#temp {
+  text-transform: capitalize;
+  color: green;
+}
+
+h1 img {
+  height: 1em;
+  width: 1em;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 2rem;
+  color: red;
+  font-size: 1.2em;
+}
+
+#hinhanh {
+  height: 120px;
+  width: 120px;
+}
+
 footer {
   font-family: $font-family;
-  font-size: $font-size-min;
+  font-size: 1.5em;
   margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #900026;
+  transition: color 0.5s ease-in;
+  &:hover {
+    color: silver;
+    cursor: not-allowed;
+  }
 }
 
 @media screen and (min-width: 720px) {
-  h1 {font-size: 1.5rem;}
-  #wikiicon {transform: scale(1.0)}
-  footer {font-size: 1.2rem;}
-  input {width: 20%;}
+  h1 {
+    font-size: 1.5rem;
+  }
+  #wikiicon {
+    transform: scale(1);
+  }
+  // footer {
+  //   font-size: 1.2rem;
+  // }
+  input {
+    width: 20%;
+  }
 }
 
 /*
